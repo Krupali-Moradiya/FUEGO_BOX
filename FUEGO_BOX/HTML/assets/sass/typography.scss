@@ -1,0 +1,100 @@
+@import 'font';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    line-height: 1.3;
+    text-align: center;
+}
+
+body{
+    font-family: $font-family-zilla-slab;
+    font-size: 14px;
+    color: $darkgray;
+    font-weight: $font-weight-light;
+    letter-spacing: 0.1em;
+    line-height: 23px;
+}
+
+h1,h2{
+    font-weight: $font-weight-bold;
+}
+h1,h2,h4,h5,a{
+    font-family: $font-family-mueso-sans;
+}
+
+h1{
+    font-size: 45px;
+    letter-spacing: 0.284em;
+}
+h2{
+    font-size:30px;
+    letter-spacing: 0.284em;
+}
+h3{
+    font-size: 18px;
+    font-family:$font-family-zilla-slab;
+    font-weight: $font-weight-medium;
+    letter-spacing: 0.1em;
+}
+h4,a{
+    font-size: 15px;
+    font-weight: $font-weight-medium;
+    letter-spacing: 0.048em;
+}
+h5{
+    font-size: 12px;
+    font-weight:$font-weight-semi-bold;
+    letter-spacing: 0.054em;
+}
+
+@mixin transitionpro{
+    transition: all 0.25s ease-in-out;
+}
+
+@mixin transformpro(){
+    transform: rotate(180deg); 
+}
+.text-upercase{
+    text-transform: uppercase;
+}
+.text-center{
+    text-align: center;
+}
+.text-decoration{
+    text-decoration: none;
+    color: $darkgray;
+    text-transform: uppercase;
+}
+.font{font-style: italic;}
+.font-light{
+    font-weight: $font-weight-light;
+}
+.font-medium{
+    font-weight: 500;
+}
+.font-bold{
+    font-weight: 900;
+}
+.color{
+    color: $primary;
+}
+.clearfix:after{
+    clear: both;
+    display: block;
+    content: '';    
+}
+
+.container{
+    max-width:1260px;    
+    padding: 0 10px;
+    margin: 0 auto;
+}
+.slider-container{
+    max-width: 1390px;
+    padding: 0px 10px;
+    margin: 0 auto;
+}

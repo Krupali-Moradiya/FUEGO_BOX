@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'museo_sans';
+  src: url("../font/museosans_500-webfont.woff2") format("woff2"), url("../font/museosans_500-webfont.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'museo_sans';
+  src: url("../font/museosans_700-webfont.woff2") format("woff2"), url("../font/museosans_700-webfont.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'museo_sans';
+  src: url("../font/7463bc8d2f1ad1feebddbb2c9e084f80-webfont.woff2") format("woff2"), url("../font/7463bc8d2f1ad1feebddbb2c9e084f80-webfont.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'zilla_slab';
+  src: url("../font/zillaslab-light-webfont.woff2") format("woff2"), url("../font/zillaslab-light-webfont.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'zilla_slab';
+  src: url("../font/zillaslab-medium-webfont.woff2") format("woff2"), url("../font/zillaslab-medium-webfont.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'zilla_slab_italic';
+  src: url("../font/zillaslab-mediumitalic-webfont.woff2") format("woff2"), url("../font/zillaslab-mediumitalic-webfont.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'zilla_slab';
+  src: url("../font/zillaslab-regular-webfont.woff2") format("woff2"), url("../font/zillaslab-regular-webfont.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+/*# sourceMappingURL=font.css.map */
